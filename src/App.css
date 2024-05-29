@@ -1,0 +1,40 @@
+*{
+  margin: 0px;
+  color: white;
+}
+
+.game{
+  background: #141f2c;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container .status {
+  color: white;
+  font-size: 40px;
+  margin: 5px;
+}
+
+.container .board-row{
+  display: flex;
+}
+
+.container .board-row .square {
+  width: 100px;
+  height: 100px;
+  background: #204c9e;
+  color: white;
+  font-size: 30px;
+}
+
+.butt {
+  width: 300px;
+  height: 50px;
+  background: #204c9e;
+  color: white;
+  font-size: 30px;
+}
