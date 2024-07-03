@@ -36,6 +36,7 @@ function Board({ xIsNext, squares, onPlay }) {
   return (
     <>
       <div className="container text-center">
+        <div className="text-2xl">ayushtiwari0803@gmail.com is my email</div>
         <div className="status mb-4 text-2xl">{status}</div>
         <div className="board-row flex justify-center">
           <Square value={squares[0]} onSquareClick={() => handleClick(0)} />
